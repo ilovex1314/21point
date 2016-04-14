@@ -1,20 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-    <link rel="stylesheet" href="../css/main.css">
-    <script src="../js/jquery.min.js"></script>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="../css/main.css">
+	<script src="../js/jquery.min.js"></script>
 </head>
 <body>
 	<div class="wrapper">
-		<div class="computer"></div>
-		<div class="middle"></div>
-		<div class="mine">
+		<div class="computer" id="computer">
+			<div class="imgBox"></div>
+			<div class="imgBox"></div>
+		</div>
+		<div class="middle">
+			<button id="start">开始</button>
+			<button id="holdon">继续</button>
+			<button id="end">停止</button>
+			<p class="showResult">123</p>
+			<p id="finall">xxx</p>
+			<p id="showc">321</p>
+		</div>
+		<div class="mine" id="mine">
 			<div class="imgBox"></div>
 			<div class="imgBox"></div>
 		</div>
 	</div>
+
 	<script src="../js/main.js"></script>
 </body>
 </html>

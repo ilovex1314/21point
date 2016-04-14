@@ -21,15 +21,65 @@ body,html{
 	justify-content:center;
 }
 .middle{
-	display: flex;
-	flex-grow:1;
+	/*display: flex;
+	flex-grow:1;*/
+	height: 250px;
 	background-color: blue;
 	margin:10px 0;
+	position: relative;
 }
+.middle button{
+	width: 100px;
+	height: 40px;
+	font-size: 20px;
+	color: red;	
+	border-radius: 10px;
+	outline: none;
+}
+#start{
+	position: absolute;
+	left: 15px;
+	top: 60px;
+}
+#holdon{
+	display: none;
+	position: absolute;
+	left: 135px;
+	top: 60px;
+}
+#end{
+	position: absolute;
+	left: 255px;
+	top: 60px;
+}
+#finall{
+	display: none;
+	position: absolute;
+	left: 215px;
+	top: 110px;
+	font-size: 25px;
+	color: red;
+}
+#showc{
+	display: none;
+	position: absolute;
+	left: 515px;
+	top: 110px;
+	font-size: 25px;
+	color: red;
+}
+.showResult{
+	position: absolute;
+	left: 15px;
+	top: 110px;
+	font-size: 25px;
+	color: red;
+}
+
 .imgBox{
 	flex:1;
 	max-width: 100px;
-	background-image: url("../img/1.jpg");
+	background-image: url("../img/0.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
 	margin: 10px;
